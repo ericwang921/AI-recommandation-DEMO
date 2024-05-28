@@ -1,9 +1,9 @@
 package guru.ysy.aiexpert.bootstrap;
 
 import guru.ysy.aiexpert.config.VectorStoreProperties;
+import guru.ysy.aiexpert.utils.reader.TikaDocumentReader;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.document.Document;
-import org.springframework.ai.reader.tika.TikaDocumentReader;
 import org.springframework.ai.transformer.splitter.TextSplitter;
 import org.springframework.ai.transformer.splitter.TokenTextSplitter;
 import org.springframework.ai.vectorstore.VectorStore;
